@@ -1,0 +1,115 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+ASasitharan_Lab5
+</name>
+</assembly>
+<members>
+<member name="T:ASasitharan_Lab5.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:ASasitharan_Lab5.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:ASasitharan_Lab5.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="M:ASasitharan_Lab5.TextEditor.Form1_Load(System.Object,System.EventArgs)">
+ <summary>
+ Sets the title of the form when the form loads
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:ASasitharan_Lab5.TextEditor.mnuExit_Click(System.Object,System.EventArgs)">
+ <summary>
+ Exits the application
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:ASasitharan_Lab5.TextEditor.mnuSave_Click(System.Object,System.EventArgs)">
+ <summary>
+ Saves the users file and opens the saveFileDialog if the file does not exist
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:ASasitharan_Lab5.TextEditor.mnuOpen_Click(System.Object,System.EventArgs)">
+ <summary>
+ Code for the open button that opens the file dialog to select and open the text file in the editor
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:ASasitharan_Lab5.TextEditor.mnuSaveAs_Click(System.Object,System.EventArgs)">
+ <summary>
+ Code for save as button that opens the save file dialog to save and rename the text file
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:ASasitharan_Lab5.TextEditor.CopyToolStripMenuItem_Click(System.Object,System.EventArgs)">
+ <summary>
+ Puts the selected text into the clipboard
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:ASasitharan_Lab5.TextEditor.PasteToolStripMenuItem_Click(System.Object,System.EventArgs)">
+ <summary>
+ Gets the text in the clipboard and outputs it in the text editor
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:ASasitharan_Lab5.TextEditor.CutToolStripMenuItem_Click(System.Object,System.EventArgs)">
+ <summary>
+ Puts the selected text into the clipboard and removes the selected text from the text editor
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:ASasitharan_Lab5.TextEditor.mnuNew_Click(System.Object,System.EventArgs)">
+ <summary>
+ Creates a new text file by changing the file name to empty and clearing the text editor
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:ASasitharan_Lab5.TextEditor.mnuClose_Click(System.Object,System.EventArgs)">
+ <summary>
+ closes a open text file and disables the text box
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:ASasitharan_Lab5.TextEditor.AboutToolStripMenuItem_Click(System.Object,System.EventArgs)">
+ <summary>
+ Displays a message box that shows details about the lab
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:ASasitharan_Lab5.TextEditor.txtTextEditor_TextChanged(System.Object,System.EventArgs)">
+ <summary>
+ Sets a boolean to true if text has been edited in the file
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:ASasitharan_Lab5.TextEditor.ConfirmClose">
+ <summary>
+ function that displays a message box if text in the file has been edited asking the user if they want to close the file without saving
+ </summary>
+</member>
+</members>
+</doc>
